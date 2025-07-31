@@ -1,14 +1,13 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-   --background-image:url(../images/cover-image-dark.png);
-   --accent-color:#ff0070;
-}
-
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --background-image: url(../images/cover-image-dark.png);
+  --accent-color: #ff0070;
+  --accent-color-hover: #ff007066;
+  --title-color: #db00ff;
+  --shadow-title-color: #ff0070;
+  --title-font-color: #000028;
+  --title-background-color: #ff0070;
+  --main-background-color: #000028;
+  --main-text-color: #f1b2ce;
+  --link-shadow-color: #ff0070;
+  --link-border-color: #f1b2ce;
 }

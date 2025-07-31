@@ -1,12 +1,13 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-:root{
-  --background-image:url(../images/cover-image-dark.png);
-  --accent-color:#ff0070;
-  --accent-color-hover:#ff007066;
-  --title-color:#db00ff;
-  --shadow-title-color:#FF0070;
-  --title-font-color:#000028;
+:root {
+  --background-image: url(../images/cover-image-dark.png);
+  --accent-color: #ff0070;
+  --accent-color-hover: #ff007066;
+  --title-color: #db00ff;
+  --shadow-title-color: #ff0070;
+  --title-font-color: #000028;
+  --title-background-color: #ff0070;
+  --main-background-color: #000028;
+  --main-text-color: #f1b2ce;
+  --link-shadow-color: #ff0070;
+  --link-border-color: #f1b2ce;
 }

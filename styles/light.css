@@ -1,28 +1,35 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  --background-image:url(../images/cover-image-light.png);
-  --accent-color:#353430;
-  --accent-color-hover:#32312D66;
-  --title-color:#FFC2E6;
-  --shadow-title-color:#FF8DCB;
-  --title-font-color:#353430;
+  --background-image: url(../images/cover-image-light.png);
+  --accent-color: #353430;
+  --accent-color-hover: #32312d66;
+  --title-color: #ffc2e6;
+  --shadow-title-color: #ff8dcb;
+  --title-font-color: #353430;
+  --title-background-color: #ff8dcb;
+  --main-background-color: #fff1f7;
+  --main-text-color: #353430;
+  --link-shadow-color: #ff8dcb;
+  --link-border-color: #353430;
 }
-.theme-light .visual-detail{
-  display: none;
-}
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-light .visual-detail {
+  visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем только те же переменные, что и выше */
+    --background-image: url(../images/cover-image-light.png);
+    --accent-color: #353430;
+    --accent-color-hover: #32312d66;
+    --title-color: #ffc2e6;
+    --shadow-title-color: #ff8dcb;
+    --title-font-color: #353430;
+    --title-background-color: #ff8dcb;
+    --main-background-color: #fff1f7;
+    --main-text-color: #353430;
+    --link-shadow-color: #ff8dcb;
+    --link-border-color: #353430;
   }
-
-  /* Остальные стили, только при необходимости */
-} 
+  .theme-light .visual-detail {
+    visibility: hidden;
+  }
+}
