@@ -11,3 +11,6 @@
   --link-shadow-color: #ff0070;
   --link-border-color: #f1b2ce;
 }
+.theme-dark .visual-detail {
+    visibility: visible;
+  }

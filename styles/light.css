@@ -29,7 +29,7 @@
     --link-shadow-color: #ff8dcb;
     --link-border-color: #353430;
   }
-  .theme-light .visual-detail {
+  .visual-detail {
     visibility: hidden;
   }
 }
