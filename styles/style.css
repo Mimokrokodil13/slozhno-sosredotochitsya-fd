@@ -67,7 +67,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 .header__theme-menu-item button {
   font-family: 'IBM Plex Mono', sans-serif;
@@ -78,6 +78,7 @@
   background-color: transparent;
   border: 0;
   padding: 1.5px 13px;
+  border: 1px solid transparent;
 }
 .header__theme-menu-item button:hover {
   outline: 1px solid var(--accent-color-hover);
